@@ -9,10 +9,13 @@ import { ProductsService } from './services/products.service';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
+  productId:number=0;
   products:Product[]=[];
 
 
-  constructor(private productService:ProductsService ,private router:Router) { }
+  constructor(private productService:ProductsService ,private router:Router) {
+
+   }
 
   ngOnInit(): void {
     this.productService.getProductDetails().subscribe(data=>{
@@ -20,12 +23,17 @@ export class ProductComponent implements OnInit {
     })
   }
 
-  openProductDetails(){
+  openProductDetails(productId:number){
 
-    this.router.navigate(['/productDetails']);
+    this.router.navigate(['/product/'+productId]);
   }
-  goToCart(){
-    this.router.navigate(['/cart']);
+  goToCart(product:Product){
+
+    this.productService.addToCart(product).subscribe(data=>{
+      this.router.navigate(['/cart']);
+    })
+
+
   }
 
 

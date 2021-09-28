@@ -10,14 +10,14 @@
                       <!-- Product name-->
                       <h5 class="fw-bolder">{{product.title}}</h5>
                       <!-- Product price-->
-                      <h5 class="fw-bolder text-success">Price: <span class="text-danger">{{product.price}}$</span></h5>
+                      <h5 class="fw-bolder text-success">Price: <span class="text-danger">₹{{product.price}}</span></h5>
                   </div>
               </div>
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                   <div class="row d-flex justify-content-around ">
-                    <a class="col-6 btn btn-outline-dark mt-auto " (click)="openProductDetails()" >View Details</a>
-                    <a class="col-5 btn btn-outline-dark mt-auto "  (click)="goToCart()" >Buy Now</a>
+                    <a class="col-6 btn btn-outline-dark mt-auto " (click)="openProductDetails(product.id)" >View Details</a>
+                    <a class="col-5 btn btn-outline-dark mt-auto "  (click)="goToCart(product)" >Buy Now</a>
                   </div>
               </div>
           </div>

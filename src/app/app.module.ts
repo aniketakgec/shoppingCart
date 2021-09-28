@@ -13,7 +13,7 @@ import { ProductsService } from './product/services/products.service';
 
 const appRoutes: Routes=[
   { path:'',component:ProductComponent  },
-  { path:'productDetails',component:ProductDetailsComponent },
+  { path:'product/:id',component:ProductDetailsComponent },
   { path:'myOrders',component:MyOrdersComponent},
   { path:'cart',component:CartComponent}
 ]

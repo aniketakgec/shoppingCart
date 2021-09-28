@@ -15,9 +15,15 @@ export class ProductsService {
     const productUrl=' http://localhost:3000/products/';
     return this.httpClient.get<Product[]>(productUrl);
   }
+
+  getCartProductDetails():Observable<Product[]>{
+    const productUrl=' http://localhost:3000/cartproducts/';
+    return this.httpClient.get<Product[]>(productUrl);
+  }
+
   addToCart(productBody:any):Observable<Product>
   {
-    const url='http://localhost:3000/products';
+    const url='http://localhost:3000/cartproducts/';
     return this.httpClient.post<Product>(url,productBody);
   }
 
@@ -27,12 +33,17 @@ export class ProductsService {
     return this.httpClient.get<Product>(productUrl);
   }
 
-  updateCartProductDetails(productId:number,product:Product):Observable<Product>
+  updateCartProductDetails(cartProduct:Product):Observable<Product>
   {
-    const productUrl=' http://localhost:3000/products/'+productId;
-    return this.httpClient.put<Product>(productUrl,product);
+    const productUrl=' http://localhost:3000/cartproducts/'+cartProduct.id;
+    return this.httpClient.put<Product>(productUrl,cartProduct);
   }
 
+  deleteProductFromCart(cartProduct:Product)
+  {
+    const productUrl=' http://localhost:3000/cartproducts/'+cartProduct.id;
+    return this.httpClient.delete<Product>(productUrl);
+  }
 
 
 

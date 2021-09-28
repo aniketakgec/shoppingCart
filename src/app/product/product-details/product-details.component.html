@@ -1,18 +1,19 @@
 <section class="py-5">
   <div class="container px-4 px-lg-5 my-5">
-      <div class="row gx-4 gx-lg-5 align-items-center">
-          <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0"  src="https://qph.fs.quoracdn.net/main-qimg-9716040507f657c16503e5fc7ae6e1d8.webp" alt="..." /></div>
+      <div class="row gx-6 gx-lg-5 align-items-center">
+          <div class="col-md-5"><img class="card-img-top mb-5 mb-md-0"  src={{product.imageUrl}} alt="..." /></div>
           <div class="col-md-6">
-              <div class="small mb-1">ISBN: 12345</div>
-              <h1 class="display-5 fw-bolder">Shop item template</h1>
-              <div class="fs-5 mb-5">
-                  <span class="text-decoration-line-through">$45.00</span>
-                  <span>$40.00</span>
+              <div class="small mb-1">ISBN: {{product.ISBN}}</div>
+              <h1 class="display-5 fw-bolder">{{product.title}}</h1>
+              <div class="fs-5 mb-1">
+                  <span class="text-decoration-line-through">₹{{product.price+249}}</span>
+                  <span class="mx-sm-2">₹{{product.price}}</span>
               </div>
-              <span>Authored By: Vyasa</span>
-              <p class="lead mt-5">Description</p>
+              <span>Authored By: {{product.author}}</span>
+              <p class="lead mt-3">Description.</p>
+              <p>{{product.description}}</p>
               <div class="d-flex">
-                 <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                 <button (click)="addToCart();" class="btn btn-outline-dark flex-shrink-0" type="button">
                       <i class="bi-cart-fill me-1"></i>
                       Add to cart
                   </button>

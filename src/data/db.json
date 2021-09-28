@@ -1,0 +1,205 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://qph.fs.quoracdn.net/main-qimg-9716040507f657c16503e5fc7ae6e1d8.webp",
+      "qty": 1,
+      "title": "Bhagavad Geeta",
+      "description": "The Shrimad Bhagavad Gita, often referred to as the Gita, is a 700-verse Hindu scripture that is part of the epic Mahabharata, dated to the second half of the first millennium BCE and exemplary for the emerging Hindu synthesis. It is considered to be one of the holy scriptures for Hinduism.The Gita is set in a narrative framework of a dialogue between Pandava prince Arjuna and his guide and charioteer Krishna, an avatar of Lord Vishnu. At the start of the Dharma Yuddha (righteous war) between Pandavas and Kauravas, Arjuna is filled with moral dilemma and despair about the violence and death the war will cause in the battle against his own kin.He wonders if he should renounce and seeks Krishna's counsel, whose answers and discourse constitute the Bhagavad Gita.",
+      "author": "Vyasa",
+      "ISBN": "12345",
+      "price": 750
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://www.buybooksindia.co.in/bbicms/uploads/books/9780241491515_0_1607945704.jpeg",
+      "qty": 1,
+      "title": "A Promised Land",
+      "author": "Barack Obama",
+      "description": "A Promised Land is a memoir by Barack Obama, the 44th President of the United States from 2009 to 2017. Published on November 17, 2020, it is the first of a planned two-volume series. Remaining focused on his political career, the presidential memoir documents Obama's life from his early years through the events surrounding the killing of Osama bin Laden in May 2011. The book is 768 pages long and available in digital, paperback, and hardcover formats and has been translated into two dozen languages. There is also a 28-hour audiobook edition that is read by Obama himself.",
+      "ISBN": "12345",
+      "price": 1299
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://www.buybooksindia.co.in/bbicms/uploads/books/9780008386597_0_1608017388.jpeg",
+      "qty": 1,
+      "title": "Think Like a Monk",
+      "author": "Jay Shetty",
+      "description": "Are you wondering whether you should buy Think Like a Monk, which is the first book written by Jay Shetty? I guess you do!The point is that there are two basic and important things most avid readers consider before spending their hard earned money on any book, the credibility of the author and secondly if the content of the book is worth the buy; most times the number of pages the book has.And if you purchase and read this book to the end, you will have the chance to know whether you should get Think Like a Monk - Train Your Mind for Peace and Purpose Every day by Jay Shetty and whether it is worth spending your time reading it. So, what are you going to do now? ",
+      "ISBN": "12345",
+      "price": 334
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://www.buybooksindia.co.in/bbicms/uploads/books/9788129129635.jpg",
+      "qty": 1,
+      "title": "GANDHI AND BHAGAT SINGH",
+      "author": "Sam D Jung",
+      "description": "Did Gandhi try his best to save Bhagat Singh from the gallows? Or was Bhagat Singh just another pawn in the complex and intricate web of imperial power politics? The aim of this study is to understand and explain why Mahatma Gandhi, the most influential political leader of his time in India, could not save Bhagat Singh, when he was negotiatiing a settlement of political questions with the Viceroy Lord Irwin during February-March 1931. Gandhi's critics accuse him of failing, mainly owing to his stern commitment to non-violence, while his party men and followers defend him, and attribute his failure to the events that took place beyond his reckoning.",
+      "ISBN": "12345",
+      "price": 175
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/41XXku5EQZL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "qty": 1,
+      "title": "Greenlights",
+      "author": "Matthew McConaughey",
+      "description": "Greenlights is a book by American actor Matthew McConaughey. It was published on October 20, 2020, by the Crown imprint of Crown Publishing Group. The book includes stories and insights from McConaughey's life in chronological order. It has been described as a memoir but McConaughey has called it an \"approach book\".It debuted at number one on The New York Times non-fiction best-seller list.",
+      "ISBN": "12345",
+      "price": 591
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51QTTApN-XL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "qty": 1,
+      "title": "The Power of Your Subconscious Mind",
+      "author": "Joseph Murphy",
+      "description": "This book can bring to your notice the innate power that the sub-conscious holds. We have some traits which seem like habits, but in reality these are those traits which are directly controlled by the sub-conscious mind, vis-à-vis your habits or your routine can be changed if you can control and direct your sub-conscious mind positively. To be able to control this 'mind power' and use it to improve the quality of your life is no walk in the park. This is where this book acts as a guide and allows you to decipher the depths of the sub-conscious.",
+      "ISBN": "12345",
+      "price": 135
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41F8ATXoMOL._SX317_BO1,204,203,200_.jpg",
+      "qty": 1,
+      "title": "Attitude Is Everything",
+      "author": "Jeff Keller",
+      "description": "Do you dread going to work? Do you feel tired, unhappy, weighed down? Have you given up on your dreams? The road to a happier, more successful life starts with your attitude--and your attitude is within your control.Whether your outlook is negative, positive or somewhere in between, Jeff Keller, motivational speaker and coach, will show you how to take control and unleash your hidden potential through three powerful steps:--THINK! Success begins in the mind. The power of attitude can change your destiny.--SPEAK! Watch your words. How you speak can propel you towards your goals.--ACT! Don't sit back. Take active steps to turn your dreams into reality.Soon, you will be energized and see new possibilities. You will be able to counter adversities and develop talents unique to you. Your relationships will improve, both at work and in your personal life. All you need is this step-by-step programme to change your attitude and your life!",
+      "ISBN": "12345",
+      "price": 144
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51ECswWT90L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "qty": 1,
+      "title": "Circe",
+      "author": "Madeline Miller",
+      "description": "Circe is a 2018 novel by American writer Madeline Miller. Set during the Greek Heroic Age, it is an adaptation of various Greek myths, most notably the Odyssey, as told from the perspective of the witch Circe. The novel explores Circe's origin story and narrates Circe's encounters with mythological figures such as Hermes, the Minotaur, Jason, and Medea, and ultimately her romance with Odysseus and her son by him, Telegonus.",
+      "ISBN": "12345",
+      "price": 349
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://m.media-amazon.com/images/I/5179mrE+WWL.jpg",
+      "qty": 1,
+      "title": "Elon Musk",
+      "author": "Ashlee Vance",
+      "description": "South African born Elon Musk is the renowned entrepreneur and innovator behind PayPal, SpaceX, Tesla, and SolarCity. Musk wants to save our planet; he wants to send citizens into space, to form a colony on Mars; he wants to make money while doing these things; and he wants us all to know about it. He is the real-life inspiration for the Iron Man series of films starring Robert Downey Junior.He started a pair of huge dot-com successes, including PayPal, which eBay acquired for $1.5 billion in 2002. Musk was forced out as CEO and so began his lost years in which he decided to go it alone and baffled friends by investing his fortune in rockets and electric cars. Meanwhile Musk’s marriage disintegrated as his technological obsessions took over his life ...",
+      "ISBN": "12345",
+      "price": 454
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51q1eW5qcsL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "qty": 1,
+      "title": "The White Tiger",
+      "author": "Aravind Adiga",
+      "description": "The White Tiger is a novel by Indian author Aravind Adiga. It was published in 2008 and won the 40th Man Booker Prize the same year.[1] The novel provides a darkly humorous perspective of India's class struggle in a globalized world as told through a retrospective narration from Balram Halwai, a village boy. In detailing Balram's journey first to Delhi, where he works as a chauffeur to a rich landlord, and then to Bangalore, the place to which he flees after killing his master and stealing his money, the novel examines issues of the Hindu religion, caste, loyalty, corruption and poverty in India.[2] Ultimately, Balram transcends his sweet-maker caste and becomes a successful entrepreneur, establishing his own taxi service. In a nation proudly shedding a history of poverty and underdevelopment, he represents, as he himself says, \"tomorrow.\"",
+      "ISBN": "12345",
+      "price": 245
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/41-ymZZaFJL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "qty": 1,
+      "title": "Notes of a Dream",
+      "author": "Krishna Trilok",
+      "description": "Who really is A.R. Rahman? We know the music. But do we know the man? For the first time, a nation's pride--winner of National Film awards, Oscars, Grammys and hearts--opens up about his philosophies: hope, perseverance, positivity and love. From his early days as a composer of advertisement jingles to his first big break in feature films, from his keenness to integrate new technology with good old-fashioned music scores to the founding of his music school, from his resounding entry on to the international stage to his directorial debut, from his philanthropy to his inner life, Notes of a Dream captures Rahman's extraordinary success story with all the rhythm and melody, the highs and lows, of a terrific soundtrack by the man himself.",
+      "ISBN": "12345",
+      "price": 389
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51IhQJ2532L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "qty": 1,
+      "title": "Changing Nature",
+      "author": "April White",
+      "description": "Immortal Descendants are disappearing one by one, and seventeen-year-old Clocker Saira Elian is next on the list…Saira and Archer’s London summer is carefree and romantic, until a brazen attempt to capture Saira looks suspiciously like the handiwork of the Descendants of War. When the kidnappings of other Descendants come to light and Mr. Shaw is taken for questioning under threat to his family, Saira realizes that for herself and young Shifter Connor, Time is the only refuge.",
+      "ISBN": "12345",
+      "price": 839
+    },
+    {
+      "id": 13,
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51OPfZ0j-7L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "qty": 1,
+      "title": "Long Walk To Freedom",
+      "author": "Nelson Mandela",
+      "description": "Long Walk to Freedomis an autobiography written by South African President Nelson Mandela, and first published in 1994 by Little Brown & Co.The book profiles his early life, coming of age, education and 27.5 years in prison. Under the apartheid government, Mandela was regarded as a terrorist and jailed on the infamous Robben Island for his role as a leader of the then-outlawed African National Congress (ANC).He later achieved international recognition for his leadership as president in rebuilding the country's once segregationist society. The last chapters of the book describe his political ascension and his belief that the struggle still continued against apartheid in South Africa.",
+      "ISBN": "12345",
+      "price": 489
+    },
+    {
+      "id": 14,
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51WIaZrvlaL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "qty": 1,
+      "title": "Governance for Growth in India",
+      "author": "A.P.J. Abdul Kalam",
+      "description": "Indian elections for the 16th Lok Sabha saw many heated debates on various topics concerning governance. In such critical times, the 11th President of India, Dr A.P.J. Abdul Kalam urges the Indians to cast their vote for the right candidate. Through Governance For Growth In India, he expresses his vision for India and the contribution which each Indian citizen must make for the same.",
+      "ISBN": "12345",
+      "price": 175
+    },
+    {
+      "id": 15,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41joOt1+aML._SY344_BO1,204,203,200_.jpg",
+      "qty": 1,
+      "title": "Vajpayee: The Years That Changed India",
+      "author": "SHAKTI SINHA",
+      "description": "Former Prime Minister of India and member of the Bharatiya Janata Party (BJP), Atal Bihari Vajpayee was an understated politician of the kind not often seen in contemporary times. His patriotism was uncompromising, forged out of the paradoxes in his life: a sensitive poet who summoned nerves of steel to conduct the Pokhran-II nuclear tests; a man of humble beginnings who envisioned a project as titanic as the Golden Quadrilateral highways. Devoid of any natural political pedigree or patronage network, he harnessed his political acumen to transform India's relations with the United States which had long been mired in misunderstandings rooted in the Cold War. His prudent decisions led to key strategic and economic policy contributions.",
+      "ISBN": "12345",
+      "price": 377
+    },
+    {
+      "id": 16,
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51oSUtGkYNL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "qty": 1,
+      "title": "The Magician's Nephew",
+      "author": "C.S. Lewis",
+      "description": "The Magician's Nephew is a fantasy children's novel by C. S. Lewis, published in 1955 by The Bodley Head. It is the sixth published of seven novels in The Chronicles of Narnia (1950–1956). In recent editions, which sequence the books according to Narnia history, it is volume one of the series. Like the others, it was illustrated by Pauline Baynes whose work has been retained in many later editions. The Bodley Head was a new publisher for The Chronicles, a change from Geoffrey Bles who had published the previous five novels.",
+      "ISBN": "12345",
+      "price": 194
+    },
+    {
+      "id": 17,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51b+qJn9+aL._SY344_BO1,204,203,200_.jpg",
+      "qty": 1,
+      "title": "The Great Indian Rope Trick",
+      "author": "Ruskin Bond",
+      "description": "The magician shrieked, 'Someone has cut the rope! What will my boy do now?' A minute later, down came the boy's head. It bounced on the ground, like a coconut. This was followed by the boy's arms, legs and body, all falling to the ground one after another. India is a land of many myths. Curiosity abounds in every corner, and at every turn, there's some sprinkling of mystery. Soothsayers with their prophecies and wise men with their wisdom co-exist with swindlers with their stratagems and conjurers with their charms, weaving illusions to appear as powerful as the many gods that this land worships. In The Great Indian Rope Trick, Ruskin Bond puts together a selection of stories that capture both the magical and the mundane. Witness peripatetic men casting their spells, know the legends of Binsar, or just rush off with Rusty into the arms of freedom. A world of wonder awaits.",
+      "ISBN": "12345",
+      "price": 206
+    },
+    {
+      "id": 18,
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/41Oa6PxD2iL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "qty": 1,
+      "title": "Beyond the Power of Your Subconscious Mind",
+      "author": "C James Jensen",
+      "description": "BEYOND THE POWER OF YOUR SUBCONSCIOUS MIND is a book that describes the real relationship between your conscious and subconscious mind. The reader will be taken on a journey toward a doorway that opens to a life of expanded opportunities and potential successes. The book does not require a leap of faith. The principles and techniques presented herein are both practical and documented by modern science. You will learn: • How the subconscious mind works differently from the conscious mind",
+      "ISBN": "12345",
+      "price": 1993
+    },
+    {
+      "id": 19,
+      "imageUrl": "https://www.buybooksindia.co.in/bbicms/uploads/books/9788379810994.jpg",
+      "qty": 1,
+      "title": "Why Are We So Different",
+      "author": "Jaroslaw Jankowski",
+      "description": "Why are we so very different from one another? Why do we organise our lives in such disparate ways? Why are our modes of assimilating information so varied? Why are our approaches to decision-making so diverse? Why are our forms of relaxing and ‘recharging our batteries’ so dissimilar?Your Guide to the ID16 Personality Types’ will help you to understand both yourselves and other people better. It will aid you not only in avoiding any number of traps, but also in making the most of your personal potential, as well as in taking the right decisions about your education and career and in building healthy relationships with others.",
+      "ISBN": "12345",
+      "price": 1226
+    },
+    {
+      "id": 20,
+      "imageUrl": "https://m.media-amazon.com/images/I/51V8U9yRayL.jpg",
+      "qty": 1,
+      "title": "Summary of Grit",
+      "author": "Angela Duckworth,",
+      "description": "Grit: The Power of Passion and Perseverance by Angela Duckworth | Book Summary Angela Duckworth is a psychologist who won a MacArthur Fellowship in 2003. She is known for her study of grit. She provides her own experiences with grit, not just from her perspective of trying to be a respectable psychologist, but even in her personal life and with her daughters, who she has been an example to.Duckworth proves that grit is out there and that anyone in an any profession, from professional swimmer to manager of a well-known chain, even a garbage man, can have grit.Duckworth admits that there are still questions unknown about grit; however, the signs of it are right of in our face and it is possible to achieve the trait. Through Duckworth's experiences and those of who she interviewed, we can see that grit is not just what we do, but who we are. Here Is A Preview Of What You'll Learn...",
+      "ISBN": "12345",
+      "price": 333
+    }
+  ],
+  "cartproducts": []
+}
