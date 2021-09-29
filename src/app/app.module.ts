@@ -9,13 +9,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductsService } from './product/services/products.service';
+import { BillingDetailsComponent } from './billing-details/billing-details.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 const appRoutes: Routes=[
   { path:'',component:ProductComponent  },
   { path:'product/:id',component:ProductDetailsComponent },
   { path:'myOrders',component:MyOrdersComponent},
-  { path:'cart',component:CartComponent}
+  { path:'cart',component:CartComponent},
+  {path:'billing',component:BillingDetailsComponent}
 ]
 
 @NgModule({
@@ -26,11 +29,13 @@ const appRoutes: Routes=[
     ProductDetailsComponent,
     MyOrdersComponent,
     CartComponent,
+    BillingDetailsComponent,
 
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
+    ReactiveFormsModule,
     HttpClientModule
   ],
   providers: [ProductsService],

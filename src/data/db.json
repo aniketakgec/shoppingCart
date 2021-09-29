@@ -201,5 +201,16 @@
       "price": 333
     }
   ],
-  "cartproducts": []
+  "cartproducts": [
+    {
+      "id": 1,
+      "imageUrl": "https://qph.fs.quoracdn.net/main-qimg-9716040507f657c16503e5fc7ae6e1d8.webp",
+      "qty": 4,
+      "title": "Bhagavad Geeta",
+      "description": "The Shrimad Bhagavad Gita, often referred to as the Gita, is a 700-verse Hindu scripture that is part of the epic Mahabharata, dated to the second half of the first millennium BCE and exemplary for the emerging Hindu synthesis. It is considered to be one of the holy scriptures for Hinduism.The Gita is set in a narrative framework of a dialogue between Pandava prince Arjuna and his guide and charioteer Krishna, an avatar of Lord Vishnu. At the start of the Dharma Yuddha (righteous war) between Pandavas and Kauravas, Arjuna is filled with moral dilemma and despair about the violence and death the war will cause in the battle against his own kin.He wonders if he should renounce and seeks Krishna's counsel, whose answers and discourse constitute the Bhagavad Gita.",
+      "author": "Vyasa",
+      "ISBN": "12345",
+      "price": 750
+    }
+  ]
 }

@@ -1,0 +1,130 @@
+<button
+  routerLink="/cart"
+  class="btn btn-secondary btn-circle btn-circle-sm m-2"
+>
+  <i class="fa fa-arrow-left"></i>
+</button>
+<div class="row">
+  <div class="col-md-6 m-auto">
+    <div class="card mb-4">
+      <div class="card-header py-3">
+        <h5 class="mb-0">Biling details</h5>
+      </div>
+      <div class="card-body">
+        <form [formGroup]="billingDetailsForm" (ngSubmit)="onSubmit()">
+          <!-- 2 column grid layout with text inputs for the first and last names -->
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                <input
+                  type="text"
+                  placeholder="Enter full name"
+                  formControlName="name"
+                  class="form-control"
+                />
+                <span
+                  *ngIf="
+                    !billingDetailsForm.get('name')?.valid &&
+                    billingDetailsForm.get('name')!.touched
+                  "
+                  class="text-danger m-2"
+                  >Enter a Valid Name</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input
+              type="email"
+              placeholder="Enter Email"
+              formControlName="email"
+              class="form-control"
+            />
+            <span
+              *ngIf="
+                !billingDetailsForm.get('email')?.valid &&
+                billingDetailsForm.get('email')!.touched
+              "
+              class="text-danger m-2"
+              >Email is Invalid</span
+            >
+          </div>
+
+          <!-- Number input -->
+          <div class="form-outline mb-4">
+            <input
+              type="number"
+              placeholder="Enter Contact Number"
+              formControlName="contactNumber"
+              class="form-control"
+            />
+            <span
+              *ngIf="
+                !billingDetailsForm.get('contactNumber')?.valid &&
+                billingDetailsForm.get('contactNumber')!.touched
+              "
+              class="text-danger m-2"
+              >Phone Number is not 10 digits long!</span
+            >
+          </div>
+          <div class="form-outline mb-2">
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gender"
+                formControlName="gender"
+                value="male"
+                id="male"
+              />
+              <label class="form-check-label" for="male">Male</label>
+            </div>
+
+            <div class="form-check form-check-inline mb-2 pl-4">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gender"
+                formControlName="gender"
+                id="female"
+                value="female"
+              />
+              <label class="form-check-label" for="female">Female</label>
+            </div>
+          </div>
+
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea
+              class="form-control"
+              placeholder="Enter Billing Address..."
+              formControlName="address"
+              rows="4"
+            >
+            </textarea>
+            <span
+              *ngIf="
+                !billingDetailsForm.get('address')?.valid &&
+                billingDetailsForm.get('address')!.touched
+              "
+              class="text-danger m-2"
+              >Please fill the address</span
+            >
+          </div>
+          <button
+            type="submit"
+            class="
+              btn btn-primary btn-block
+              waves-effect waves-light
+              text-uppercase
+              pull-right
+            "
+          >
+            Place Order
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
