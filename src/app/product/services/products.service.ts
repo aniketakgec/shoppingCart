@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import { Product } from '../Product.model';
+import { Product } from '../../../models/Product.model';
 import { Observable } from 'rxjs';
+import { Order } from 'src/models/Order.model';
 
 
 @Injectable({
@@ -21,10 +22,21 @@ export class ProductsService {
     return this.httpClient.get<Product[]>(productUrl);
   }
 
+  getPastOrders():Observable<Order[]>{
+    const productUrl=' http://localhost:3000/pastOrders/';
+    return this.httpClient.get<Order[]>(productUrl);
+  }
+
   addToCart(productBody:any):Observable<Product>
   {
     const url='http://localhost:3000/cartproducts/';
     return this.httpClient.post<Product>(url,productBody);
+  }
+
+  addToPastOrders(orders:Order)
+  {
+    const url='http://localhost:3000/pastOrders/';
+    return this.httpClient.post<Order>(url,orders);
   }
 
   viewProductDetails(productId:number):Observable<Product>
@@ -44,6 +56,7 @@ export class ProductsService {
     const productUrl=' http://localhost:3000/cartproducts/'+cartProduct.id;
     return this.httpClient.delete<Product>(productUrl);
   }
+
 
 
 

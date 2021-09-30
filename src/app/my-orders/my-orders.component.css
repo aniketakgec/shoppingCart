@@ -1,6 +1,6 @@
 .card{
-  padding: 10px;
-
+  padding: 5px;
+  background-color: #F2F2F2	;  
 }
 .btn {
   border-radius: 2px;
@@ -17,7 +17,7 @@
 img.mr-4 {
   width: 100px;
   height: 100px;
-  object-fit:cover;
+  object-fit:fill;
 
 }
 .flexi{
@@ -27,4 +27,8 @@ img.mr-4 {
 
 .product-description{
   margin-left: 10px;
+}
+
+a:hover{
+  cursor: pointer;
 }

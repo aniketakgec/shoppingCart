@@ -12,10 +12,10 @@
         <div>
           <div>
             <h4 class="font-weight-bold mt-0 mb-4">Past Orders</h4>
-            <div class="bg-white card mb-2">
-              <div class="gold-members p-2">
-                <span class="float-right fw-bold text-secondary"
-                  >Order Placed: <font class="text-black">Nov 19, 2021</font></span
+            <div class="card  mt-3" *ngFor="let order of pastOrders" >
+              <div class=" p-2">
+                <span class="float-right fw-bold text-black"
+                  >Order Placed: <font class="text-black">{{order.orderDate}}</font></span
                 >
 
                 <div class="pull-right">
@@ -24,33 +24,34 @@
                   >
                 </div>
                 <div class="flexi pl-4 mt-3">
-                  <a routerLink="/cart">
+                  <a>
                     <img
                       class="mr-4"
-                      src="https://qph.fs.quoracdn.net/main-qimg-9716040507f657c16503e5fc7ae6e1d8.webp"
+                      src={{order.imageUrl}}
+                      (click)="openProductDetails(order.id)"
                     />
                   </a>
                   <div class="product-description">
                     <p class="mb-0 text-black text-primary">
                       <span class="text-info fw-bold"
-                        >Bhagavad Geeta</span
+                        >{{order.title}}</span
                       >
                     </p>
-                    <p class="mb-0  small">By: Vyasa</p>
-                    <p class="mb-3 small ">Qty: 2</p>
+                    <p class="mb-0  small">By: {{order.author}}</p>
+                    <p class="mb-3 small ">Qty: {{order.qty}}</p>
                   </div>
 
                 </div>
 
                 <div class="card mt-2">
-                  <div class="card-title fw-bold text-secondary">Delivered To:</div>
-                   <div> Name: Aniket Pandey</div>
-                   <div>Contact: 8840095975</div>
-                   <address>3/765, Vastu Khand,Gomti Nagar,Lucknow</address>
+                  <div class="card-title fw-bold text-black">Delivered To:</div>
+                   <div> Name : {{order.name}}</div>
+                   <div>Contact : {{order.contact}}</div>
+                   <address>{{order.address}}</address>
                 </div>
 
                 <p class="mb-0 text-black text-primary pt-2 pull-right">
-                  <span>Paid: <strong>₹500</strong></span>
+                  <span>Paid: <strong>₹{{order.price*order.qty}}</strong></span>
                 </p>
               </div>
             </div>

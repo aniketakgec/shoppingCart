@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Product } from '../product/Product.model';
+import { Order } from 'src/models/Order.model';
+import { Product } from '../../models/Product.model';
 import { ProductsService } from '../product/services/products.service';
 
 
@@ -10,6 +11,7 @@ import { ProductsService } from '../product/services/products.service';
 })
 export class CartComponent implements OnInit{
 
+  pastOrders:Order[]=[];
 
   cartSize:number=0;
   cartProductList:Product[]=[];
@@ -85,6 +87,7 @@ export class CartComponent implements OnInit{
 
     this.calculateCartValue();
  }
+
 
 
 
